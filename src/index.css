@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ @splidejs/react-splide/css;
+ @splidejs/react-splide/css/skyblue;
+ @splidejs/react-splide/css/sea-green;
+ @splidejs/react-splide/css/core;

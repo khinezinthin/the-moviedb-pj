@@ -1,0 +1,91 @@
+
+/* navbar  */
+.movie-color{
+    background: linear-gradient(346deg, rgba(236,56,188,1) 0%, rgba(115,3,192,1) 50%, rgba(236,56,188,1) 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+
+
+.burger{
+    display: none;
+}
+@media screen and (max-width: 730px){
+    .nav-menu {
+        z-index: 50;
+        position: absolute;
+        left: -100%;
+        top: 0;
+        flex-direction: column;
+        background-color: black;
+        width: 45%;
+        height: 100%;
+        text-align: center;
+        transition: 1s;
+    }
+    .nav-menu.active{
+        left: 0;
+    }
+    .burger{
+        display: flex;
+        align-items: center;
+    }
+}
+
+ /* background: rgb(128,0,128);
+ background: linear-gradient(346deg, rgba(128,0,128,1) 0%, rgba(255,192,203,1) 50%, rgba(236,56,188,1) 100%);
+ background-clip: text;
+ color: transparent; */
+
+
+/* navbartwo */
+.navTwo:hover{
+    border-bottom: 2px solid #7303c0;
+
+}
+
+/* card */
+/* .card{
+    transition: 2000ms;
+} */
+.card-body:hover{
+    transform: scale(1.05);
+    box-shadow: #701ece  0px 2px 4px;
+}
+
+/* modal */
+.modal-img{
+    box-shadow: rgba(236,56,188,1) 0px 0.0625em 0.0625em, rgba(236,56,188,1) 0px 0.125em 0.5em, rgba(236,56,188,1) 0px 0px 0px 1px inset;
+}
+.modal-img:hover{
+    transform: scale(1.01);
+}
+.modal{
+    background-color: black;
+}
+
+.play-div{
+    box-shadow: rgba(236,56,188,1) 0px 0.0625em 0.0625em, rgba(236,56,188,1) 0px 0.125em 0.5em inset;
+}
+.play:hover{
+    transform: scale(1.1);
+}
+
+/* login */
+.log-in{
+    box-shadow: rgba(236,56,188,1) 0px 1px 1px, rgba(236,56,188,1) 0px 0px 10px;
+}
+
+
+/* fav */
+.fav{
+    box-shadow: rgba(236,56,188,1) 0px 0.0625em 0.0625em, rgba(236,56,188,1) 0px 0.125em 0.5em, rgba(236,56,188,1) 0px 0px 0px 1px inset;
+}
+/* footer  */
+.footer{
+    background: rgb(115,3,192);
+    background: linear-gradient(346deg, red 20%, rgba(236,56,188,1) 60%, rgba(253,239,249,1) 100%);
+    background-clip: text;
+    color: transparent;
+}
